@@ -9,6 +9,6 @@ import java.lang.annotation.Target;
 @Target({ ElementType.TYPE, ElementType.FIELD })
 public @interface NomeTagXml {
 	
-	public String value();
+//	public String value();
 
 }
