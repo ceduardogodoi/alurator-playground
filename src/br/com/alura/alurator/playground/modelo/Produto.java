@@ -44,4 +44,5 @@ public class Produto extends SuperProduto {
 	public String toString() {
 		return "Produto [nome=" + nome + ", valor=" + valor + ", marca=" + marca + "]";
 	}
+
 }

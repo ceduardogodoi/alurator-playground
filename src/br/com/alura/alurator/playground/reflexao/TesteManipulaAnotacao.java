@@ -8,8 +8,8 @@ public class TesteManipulaAnotacao {
 	public static void main(String[] args) {
 		Produto produto = new Produto("Produto 1", 20.0, "Marca 1");
 		Class<?> classeProduto = produto.getClass();
-		
-		System.out.println(classeProduto.getDeclaredAnnotation(NomeTagXml.class).value());
+
+		classeProduto.getDeclaredAnnotation(NomeTagXml.class).value();
 	}
-	
+
 }
