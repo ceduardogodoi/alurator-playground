@@ -9,7 +9,8 @@ public class TesteManipulaAnotacao {
 		Produto produto = new Produto("Produto 1", 20.0, "Marca 1");
 		Class<?> classeProduto = produto.getClass();
 
-		classeProduto.getDeclaredAnnotation(NomeTagXml.class).value();
+		String s = classeProduto.getDeclaredAnnotation(NomeTagXml.class).value();
+		System.out.println(s);
 	}
 
 }
